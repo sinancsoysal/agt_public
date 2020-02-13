@@ -44,7 +44,8 @@
             ]
         },
         {
-            "name" : "blender",
+            "mesh" : 0,
+            "name" : "Text",
             "rotation" : [
                 0.7071067690849304,
                 0,
@@ -52,10 +53,94 @@
                 0.7071067690849304
             ],
             "translation" : [
-                0.20894087851047516,
-                2.113851547241211,
-                0
+                0.1745438575744629,
+                1.7905080318450928,
+                -0.5390597581863403
             ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.7811607718467712,
+                    0.0014682415639981627,
+                    0.8000000715255737,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Text.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4921,
+            "max" : [
+                1.5425000190734863,
+                0.14000000059604645,
+                2.009000062942505
+            ],
+            "min" : [
+                -1.4825000762939453,
+                -0.14000000059604645,
+                -0.4580000340938568
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4921,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 12504,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 59052,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 59052,
+            "byteOffset" : 59052
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25008,
+            "byteOffset" : 118104
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 143112,
+            "uri" : "sry.bin"
         }
     ]
 }
