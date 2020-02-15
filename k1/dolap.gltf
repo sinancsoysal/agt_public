@@ -8,8 +8,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1
+                0
             ]
         }
     ],
@@ -26,26 +25,6 @@
                 3.911496162414551,
                 1.299998164176941,
                 -4.640113353729248
-            ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "Plane",
-            "rotation" : [
-                0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ],
-            "scale" : [
-                0.9334091544151306,
-                1,
-                1.2917051315307617
-            ],
-            "translation" : [
-                2.9660720825195312,
-                1.304364800453186,
-                -4.941391468048096
             ]
         }
     ],
@@ -124,14 +103,6 @@
             "doubleSided" : true,
             "name" : "\u0410\u043d\u043e\u0434\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0435 \u0441\u0435\u0440\u0435\u0431\u0440\u043e.001",
             "pbrMetallicRoughness" : {}
-        },
-        {
-            "doubleSided" : true,
-            "name" : "Material",
-            "pbrMetallicRoughness" : {
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
-            }
         }
     ],
     "meshes" : [
@@ -280,20 +251,6 @@
                     },
                     "indices" : 77,
                     "material" : 9
-                }
-            ]
-        },
-        {
-            "name" : "Plane",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 78,
-                        "NORMAL" : 79,
-                        "TEXCOORD_0" : 80
-                    },
-                    "indices" : 81,
-                    "material" : 10
                 }
             ]
         }
@@ -908,40 +865,6 @@
             "componentType" : 5123,
             "count" : 1476,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 78,
-            "componentType" : 5126,
-            "count" : 4,
-            "max" : [
-                1,
-                0,
-                1
-            ],
-            "min" : [
-                -1,
-                0,
-                -1
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 79,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 80,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 81,
-            "componentType" : 5123,
-            "count" : 6,
-            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -1334,31 +1257,11 @@
             "buffer" : 0,
             "byteLength" : 2952,
             "byteOffset" : 10693540
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 10696492
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 10696540
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 10696588
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12,
-            "byteOffset" : 10696620
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 10696632,
+            "byteLength" : 10696492,
             "uri" : "dolap.bin"
         }
     ]
