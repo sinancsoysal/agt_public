@@ -33,8 +33,12 @@
             "doubleSided" : true,
             "name" : "\u041b\u0414\u0421\u041f.001",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.27523812651634216
+                "roughnessFactor" : 0.5
             }
         },
         {
@@ -249,6 +253,18 @@
                     "material" : 9
                 }
             ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "red",
+            "uri" : "red.png"
         }
     ],
     "accessors" : [
