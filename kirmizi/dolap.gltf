@@ -47,7 +47,10 @@
         {
             "doubleSided" : true,
             "name" : "\u041b\u0414\u0421\u041f.001",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.27523812651634216
+            }
         },
         {
             "doubleSided" : true,
