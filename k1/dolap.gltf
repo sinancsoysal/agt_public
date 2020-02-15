@@ -262,8 +262,6 @@
     ],
     "images" : [
         {
-            "mimeType" : "image/png",
-            "name" : "red",
             "uri" : "red.png"
         }
     ],
